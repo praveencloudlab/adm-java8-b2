@@ -126,11 +126,18 @@ public class Employee {
 	 *     ------------
 	 *     hashcode is a memory representation number to identify object in memory
 	 *     
+	 *     
+	 *     
+	 *     static data access
+	 *     -----------------------
+	 *     -> static data directly available to all the methods from the same class
+	 *     -> static data can be accessed with class name from  different class.
+	 *     
 	 *  
 	 */
 	
 	int empId; // instance
-	int empName; // instance
+	String empName; // instance
 	int salary; // instance
 	
 	static String managerName;
@@ -144,8 +151,11 @@ public class Employee {
 		//empId=1000;//error:  can not access non static data from static methods directly
 		Employee e1=new Employee();
 		e1.empId=10000;// valid
+		e1.empName="James";
+		e1.salary=99888;
 		
 		companyName="CTS";
+		managerName="test";
 	}
 	
 	
