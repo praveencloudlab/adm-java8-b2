@@ -21,11 +21,11 @@ public class Employee {
 	 *  
 	 *  2.methods
 	 *  =================
-	 *  	1.instance method
-	 *  	2.static method
-	 *  	3.final method
-	 *  	4.abstract method
-	 *  	5.native
+	 *  	1.instance method : unique copy to each object
+	 *  	2.static method   : sharable to all objects
+	 *  	3.final method    : can not be overridden in sub classes
+	 *  	4.abstract method : method specification (no body)
+	 *  	5.native method   : other than java language
 	 *  
 	 *  3.constructors
 	 *  =================
@@ -39,12 +39,12 @@ public class Employee {
 	 *  
 	 *  types of class
 	 *  ===============
-	 *  	1.Concrete class
-	 *  	2.abstract class
-	 *  	3.final class
-	 *  	4.inner class
-	 *  		4.1 static inner class
-	 *  		4.2	private inner class
+	 *  	1.concrete class : a class with full implementation
+	 *  	2.abstract class : a class with partial implementation
+	 *  	3.final class    : a class which can not be inherited
+	 *  	4.inner class    : child class of type parent class.
+	 *  		4.1 static inner class : can be invoked with out parent class object
+	 *  		4.2	private inner class: parent object mandate to invoke private inner classes
 	 *  	
 	 *  =============================
 	 *  1.instance (non static)

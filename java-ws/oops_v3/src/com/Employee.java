@@ -20,19 +20,19 @@ public class Employee {
 	// to restrict a object to assign data for object, then use argument constructor
 	// employee id must be provided at the time of creation of object
 	
-	/*
+	
 	public Employee(int empId) {
 		this.empId=empId;
 	}
-	*/
 	
-	/*
+	
+	
 	// empId, employee name must be provided
 	public Employee(int empId,String empName) {
 		this.empId=empId;
 		this.empName=empName;	
 	}
-	*/
+	
 	
 	// empId, employee name and salary must be provided
 	public Employee(int empId,String empName,double salary) {
@@ -64,8 +64,8 @@ public class Employee {
 		
 		System.out.println(">>>>1. main method");
 		
-		Employee e1=new Employee(1,"Praveen",87733);
-		Employee e2=new Employee(2,"James",98765);
+		Employee e1=new Employee(1,"Praveen");
+		Employee e2=new Employee(2,"James");
 		
 		//e1.empId=10; // instance data is  unique to each object
 		//e1.empName="James";
