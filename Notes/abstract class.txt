@@ -1,0 +1,19 @@
+abstract class
+--------------------
+-> an abstract is a method specification which contains zero or more abstract methods
+   and concrete methods
+
+what is abstract method?
+-------------------------
+-> abstract method is a method specification which contains no body.
+-> abstract method mustbe defined only in the abstract classes and interface
+-> we can not create object to abstract class, because it contains un implemented methods
+-> but we can craete reference to an abstract class.
+-> the reference of an abstract class can be used to access everything in the abstract class.
+   and also overrriden methods of sub classses.
+-> the reference of an abstract class can not be used to access the individual methods of a sub class
+-> All the sub classes of an abstract class must implement all the abstract methods
+   of a abstract class
+-> If any sub class not implemented any one of abstract methods of abstract class, 
+   then that sub class must be defined as 'abstract'
+-> final methods can not be overridden in the sub class. so abstract methods can not defined as 'final'

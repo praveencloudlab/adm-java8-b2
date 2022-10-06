@@ -1,0 +1,14 @@
+Inheritance notes
+========================
+=> Never ever create sub class object directly (abstraction can not be implemented)
+=> A super class reference can store all its sub class obejcts.
+=> reference of a super can be used access all methods in the super class,
+   and common methods of sub class (overrriden methods)
+=> reference of super class can not be used to access the individual methods of 
+   sub classes. (a method which is defined in the sub class, and not defined in the 
+                  super class)
+
+
+
+ 
+ 

@@ -1,0 +1,22 @@
+Notes
+--------------
+a) with a single class
+---------------------------
+1. JVM adds a default constructor on its won, when no parametarized constructro not
+   provided.
+2.When parametarized constructor is added, then JVM never adds default constructor
+  on its own
+
+b) with super and sub class
+----------------------------------
+
+-> sub class constructors always calls super class default constructor.
+-> when super class argument constrictor invoked, then super class default constructor is not called.
+-> when sub class is invoking super class argument constructor, 
+   and sub class is having default constructor, 
+   then super class must have default constructor. or else delete default constructor 
+   from the sub class.
+
+   
+
+

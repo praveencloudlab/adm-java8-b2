@@ -1,0 +1,21 @@
+when super class method defined as public,
+	-> sub class overridden method can be defined only as 'public'
+when super class method defined as 'default'
+	-> sub class overridden method can be defaul, public and protected only
+when super class methods defined as 'protected'
+	-> sub class overridden method can be protected and public only
+
+Note: we can not override/define/access private methods at any cost
+note: we can not override final methods at any cost
+
+ diff b/w private methods and final methods
+===============================================
+-> private methods not at all avaiable to any of its sub classes
+-> final methods can not be overriden on the sub classes, but can be 
+   invoked by sub class object
+
+
+ final class
+----------------
+-> final classes can not be inherited. 
+
