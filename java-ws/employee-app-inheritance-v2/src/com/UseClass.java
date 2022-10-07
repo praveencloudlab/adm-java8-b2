@@ -1,5 +1,40 @@
 package com;
 
+import java.util.List;
+
+class Product{
+	
+	
+	/**
+	 * productId is used to identify unique product
+	 */
+	public int productId;
+	/**
+	 * productName is used to display product name to the client
+	 */
+	public String productName;
+	
+	/**
+	 * This is default constructor. It initialize default values
+	 */
+	public Product() {}
+	/**
+	 * this method is used to save product
+	 */
+	public void save() {}
+	/**
+	 * this method is used to find a product by product id
+	 */
+	public Product findById(int id) {return null;}
+	/**
+	 * this method is used to fetch all products from database
+	 */
+	public List<Product> findAll(){return null;}	
+	
+	
+}
+
+
 final class C1{
 	
 }
@@ -13,10 +48,15 @@ class A{
 	void f2() {}
 	protected void f3() {}
 	private void f4() {}
-	final void f5() {}
+	
+	final void f5() {
+		System.out.println("cont message");
+	}
 	
 }
 class B extends A{
+	
+	
 	
 	public void f1() {}
 	
