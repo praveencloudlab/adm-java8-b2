@@ -1,0 +1,39 @@
+Assignmnet on interfaces
+===============================
+1. Create a Bank class and add following methods to it
+		1) public double withDraw(double amount){return 0.0;}
+		2) public double deposit(double amount){return 0.0;}
+
+2. create a Test class and call deposit and withdraw from it
+
+requirements
+------------------
+1.when ever customer withdraws or deposits amount, then
+  send a notification message via sms
+  ex: withdraw:: amount xxxxxxxx withdrawn at date and time. 
+                 avaiable balance is xxxxxxxxxxxxx
+      deposit:: your account number ending with xxxx is deposited xxxx amount.
+                available balance is xxxxxxxxx
+      
+2.when ever customer withdraws or deposits amount, then
+  send a notification message via email
+3.when ever customer withdraws or deposits amount, then
+  send a notification message via whats app
+
+
+Note: make sure that in future if telegram also added for notification 
+      message, then you should able to send with out any lock-ins 
+      in Notification class.
+
+
+ (hint) : create Message interface, and Notification class. Define 
+          Message interface reference in Notification class.
+
+          Sms, Email and WhatsApp are the classes who implements Message interface
+
+
+
+
+
+
+
