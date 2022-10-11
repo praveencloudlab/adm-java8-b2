@@ -4,6 +4,10 @@ public class Employee {
 
 	private int id;
 	private String empName;
+	
+	public Employee() {
+		// TODO Auto-generated constructor stub
+	}
 
 	public Employee(int id) {
 		this.id = id;
@@ -21,11 +25,17 @@ public class Employee {
 
 	@Override
 	public boolean equals(Object obj) {
+		
 		// convert / type caste Object into Employee
+		
+		Employee emp = null;
+		if (obj instanceof Employee) {
+			emp = (Employee) obj;
+		}else {
+			return false;
+		}
 
-		Employee emp = (Employee) obj;
-
-		return emp.getId() == id;
+		return (emp.getId() == id) && (emp.getEmpName().equals(empName));
 	}
 
 	public int getId() {
