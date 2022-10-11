@@ -1,0 +1,46 @@
+java.lang package
+----------------------
+Object
+String
+StringBuffer
+StringBuilder
+Wraper Classes
+Garbage Collection
+Exception Handling
+Threads
+
+Object class
+------------------
+-> Object is the super class to all the classes
+-> Object class contains methods which are common for every class
+
+ Methods of Object class
+----------------------------
+  public final native java.lang.Class<?> getClass();
+  public native int hashCode();
+  public boolean equals(java.lang.Object);
+  protected native java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+  public java.lang.String toString();
+  public final native void notify();
+  public final native void notifyAll();
+  public final void wait() throws java.lang.InterruptedException;
+  public final native void wait(long) throws java.lang.InterruptedException;
+  public final void wait(long, int) throws java.lang.InterruptedException;
+  protected void finalize() throws java.lang.Throwable;
+
+
+
+  Reflextion api
+--------------------------
+-> deals with class information
+
+
+
+
+
+
+
+
+
+
+

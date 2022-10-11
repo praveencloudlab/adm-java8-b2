@@ -10,6 +10,7 @@ public class UseClass {
 		Notification smsNotification=new SmsAlert();
 		Notification emailNotification=new EmailAlert();
 		
+		
 		List<Notification> notifications=new ArrayList<>();
 		
 		notifications.add(smsNotification);
