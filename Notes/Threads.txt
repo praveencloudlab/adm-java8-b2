@@ -1,0 +1,19 @@
+Threads
+---------
+
+ Process: 
+-------------
+  => process contains combination of more than one one thread
+  => process is very heavy weight 
+  => process takes more resources to execute
+  => communication bertween process is very costly
+
+thread
+-----------
+ => a thread is a light weight process
+ => thread takes very less resources compare to process
+ => communication between threads are  easy
+
+
+
+
