@@ -1,0 +1,136 @@
+java api (application programming interface)
+==================================================
+1.java.io (file operations)
+=========================================
+2.java.util (data structure)
+=========================================
+3.javax.sql (jdbc (java database connectivity))
+=============================
+
+
+ GUI (graphical user interface design)
+ ------------------------------------------
+4.java.awt
+5.javax.swings
+=============================
+
+2.java.util (data structure)
+=====================================
+
+1.order data  (1,5,4,2) => (1,5,4,2)
+2.un-ordeed   (98,"Abc",87,32,"Xyz") => (32,87,98,Abc,Xyz)
+
+
+Collection interface 
+----------------------
+-> contains methods which are commion for index and non-indexed oprations
+index operations
+------------------
+   List extends Collection
+non-index based operations
+--------------------------
+	Set extends COllection
+
+Map
+
+
+List interface
+---------------------
+-> index based operation
+-> same insertion order
+-> accept duplicate objects 
+
+interface List extends COllection
+
+ ArrayList implements List
+ Vector implements List
+ Stack extends Vector
+ LinkedList implements List
+
+Set interface
+----------------
+-> non-index based operations
+-> insertion order is not same
+-> accepts only unique objects
+
+  HashSet implements Set
+	LinkedHashSet implements Set	
+	SortedSet extends Set
+	TreeSet implements SortedSet
+
+
+ Map interface
+--------------------
+-> key and value based data structure
+-> non-index based operations
+-> insertion order is not same
+-> accepts only unique objects
+
+  HashMap implements Map
+  LinkedHashMap implements Map
+  SortedMap extends Map
+  TreetMap implements SortedMap
+
+
+  	 Collection interface
+
+ 1.List
+		->ArrayList 
+		->Vector
+		->Stack
+		->LinekdList
+ 2.Set
+		->HashSet
+		->LinkedHashSet
+		->TreeSet
+
+ -> map doesnt extends COllection
+
+ Map
+	-> HashMap
+	-> Hashset
+	-> LinkedHaspMap
+	-> TreetMap
+
+
+  Generics in Java (Templates)
+------------------------------------
+ Generics can able to store any type of data
+
+
+
+		HashSet<Object> hs=new HashSet<>();
+	
+      map.put("Xyz",dummy-obj);
+    	//hs.add("Xyz");
+     
+
+
+   Collections with Complex objects
+-----------------------------------------
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
